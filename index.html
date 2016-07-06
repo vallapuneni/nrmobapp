@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.min.css" />
+     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+     <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <title>Hello World</title>
+</head>
+
+<body>
+    <div class="app">
+        <div data-role="page" id="home">
+
+	<div data-role="header" data-theme="a">
+		<h1><img src="images/logo.png" class="logo"></h1>
+       
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+          <nav  data-role="navbar" >
+        <ul >
+            <li><a href="#home" data-transition="flip" class="ui-btn ui-btn-active ui-state-persist"  >Home</a></li>
+             <li><a href="#services" data-transition="flip" class="ui-btn">Services</a></li>
+             <li><a href="#contact" data-transition="flip" class="ui-btn" >Contact</a></li>
+        </ul>
+       </nav>
+		<p>NextRow was built on the belief that the growth and profitability of an organization depends on the ability to create lasting and meaningful relationships with its customers. In today’s hyper competitive markets, a strategic blend of creative content and the most relevant technology is crucial to ensure that every facet of your digital presence is driving personalized brand relationships with your audience.</p>
+        <p>NextRow Digital is a new-age, premium digital services company that is at the forefront of exploding digital landscape.</p>     
+         <p>We are a born-in-digital company that uniquely combines the power of technology, analytics, creative and content for digital transformation.</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="a" data-position="fixed">
+		<h5>&copy; 2016 NextRow</h5>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start of second page -->
+<div data-role="page" id="services">
+    <div data-role="header" data-theme="a">
+		<h1><img src="images/logo.png" class="logo"></h1>       
+	</div>
+    <!-- /header -->
+
+	<div data-role="content">
+        <nav  data-role="navbar" >
+        <ul >
+            <li><a href="#home" data-transition="flip"  class="ui-btn" >Home</a></li>
+             <li><a href="#services" data-transition="flip" class="ui-btn ui-btn-active ui-state-persist" >Services</a></li>
+             <li><a href="#contact" data-transition="flip" class="ui-btn">Contact</a></li>
+        </ul>
+       </nav>
+        <div data-role="main" class="ui-content">
+           <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+					<div data-role="collapsible">
+						 <h5>Adobe Experience Manager</h5>
+					 <p>Adobe Experience Manager (AEM) is a web content management system that allows companies to offer individualized digital experience to customers across different delivery channels. Key Components of AEM include Digital Asset Management (DAM), Web Content Management (WCM), Multi Site Manager (MSM), and Adobe Experience Manager Apps.</p>
+                     <p>Using Adobe Experience Manager, authors can create, edit and manage web pages/sites in many languages for different brands and multiple regions.</p>
+                     <p>Integrating AEM with Adobe Marketing Cloud (or third party marketing tools) will enhance user experience and reach target audience better.</p>
+					</div>
+					<div data-role="collapsible">
+						<h5>Marketing Automation</h5>
+					 <p> marketing automation strategy to increase ROI</p>
+                        <p>With our expertise in enterprise-level marketing automation, we help to move prospects through their lifecycle, automating their journey. It means speaking to the right person, at the right time, using the right marketing channel.</p>
+
+					</div>
+					<div data-role="collapsible">
+						<h5>Mobile Apps</h5>
+					 <p> NextRow will be your trusted partner, delivering much needed strategy and implementation of your apps, resulting in millions of dollars savings on your mobile app projects.</p>
+					</div>
+				</div>
+   
+           
+            </div>
+		
+	
+    </div>
+	
+	<div data-role="footer" data-theme="a" data-position="fixed">
+		<h5>&copy; 2016 NextRow</h5>
+	</div><!-- /footer -->
+</div><!-- /page -->
+        <!-- Start of third page -->
+<div data-role="page" id="contact">
+
+	<div data-role="header" data-theme="a">
+		<h1><img src="images/logo.png" class="logo"></h1>       
+	</div>
+
+	<div role="main" class="ui-content">
+      <nav  data-role="navbar" >
+        <ul >
+            <li><a href="#home" data-transition="flip"  class="ui-btn" >Home</a></li>
+             <li><a href="#services" data-transition="flip" class="ui-btn">Services</a></li>
+             <li><a href="#contact" data-transition="flip" class="ui-btn ui-btn-active ui-state-persist">Contact</a></li>
+        </ul>
+       </nav>
+        <div class="contact-form">
+            <form method="post" action="demoform.asp">
+              <label for="fname">Full name:</label>
+              <input type="text" name="fname" id="fname">
+              <label for="company">Company</label>
+              <input type="text" name="company" id="company">
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" id="phone">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+             <input type="submit" value="Submit">
+              
+            </form>
+        </div>
+        <h3>Head Quarters - USA</h3>
+	<ul class="address">
+        
+        <li><strong>NextRow Inc</strong></li>
+        <li>917 N Plum Grove Rd. Ste D</li>
+        <li>Schaumburg,IL 60173 USA</li>
+        <li>Phone: 847.592.2920</li>
+        <li>Fax:847.464.8091</li>
+    </ul>
+        <h3>Map</h3>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.898879863728!2d-88.05987828425529!3d42.04534866290954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880faf73ba1895a9%3A0xd5f97a215a11c134!2sNextRow+Inc!5e0!3m2!1sen!2sin!4v1467792096214" width="280" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+	</div><!-- /content -->
+
+
+	<div data-role="footer" data-theme="a" data-position="fixed">
+		<h5>&copy; 2016 NextRow</h5>
+	</div><!-- /footer -->
+</div><!-- /page -->
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+     <script type="text/javascript" src="js/jquery.mobile.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+</body>
+
+</html>
